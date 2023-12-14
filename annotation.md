@@ -1,3 +1,5 @@
+RealWorldAutomationTest.java находится в папке src/test/java/com/example
+
 1. Заполнение данных на главной ветке и ветке testsWithLogin:
 Находясь на главной ветке, выполните следующие шаги в коде:
 -Заполните поля email, username и password соответствующими значениями, где это необходимо.
