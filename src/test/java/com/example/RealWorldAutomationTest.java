@@ -59,18 +59,18 @@ public class RealWorldAutomationTest {
     // @Test
     // public void testAddArticleToFavoriteFromGlobalFeed() {
     // open("https://angular.realworld.io");
-    // login("arysbugs@gmail.com", "Shazam888");
+    // login("Ваш email", "Ваш пароль");
     // $(".nav-link[href='/']").shouldBe(visible).click();
 
     // $(".article-preview .preview-link").waitUntil(visible, 15 * 1000).click();
     // $(".article-actions .btn-outline-primary").shouldBe(visible).click();
 
     // // Находим элемент профиля и кликаем
-    // $(".nav-link[href='/profile/arystan1']").click();
+    // $(".nav-link[href='/profile/Ваш логин']").click();
     // // Ожидаем, пока страница с профилем станет видимой
     // $(".profile-page").waitUntil(visible, 10000);
     // // Теперь находим элемент Favorites и кликаем
-    // $(".nav-link[href='/profile/arystan1/favorites']").click();
+    // $(".nav-link[href='/profile/Ваш логин/favorites']").click();
     
     // // Проверяем, что статья отображается в избранном
     // if ($$(".article-preview").size() > 0) {
@@ -84,7 +84,7 @@ public class RealWorldAutomationTest {
     // @Test
     // public void testArticleVisibilityInGlobalFeedAfterCreation() {
     //     open("https://angular.realworld.io");
-    //     login("arysbugs@gmail.com", "Shazam888");
+    //     login("Ваш email", "Ваш пароль");
     //     createArticle("Test Article", "This is a test article body.", "tag1,tag2");
     //     $(".nav-link[href='/']").shouldBe(visible).click();
     //     }
@@ -103,7 +103,7 @@ public class RealWorldAutomationTest {
     //     open("https://angular.realworld.io");
 
     //     // Вход с логином и паролем
-    //     login("arysbugs@gmail.com", "Shazam888");
+    //     login("Ваш email", "Ваш пароль");
     // }
 
     // private void login(String email, String password) {
@@ -116,7 +116,7 @@ public class RealWorldAutomationTest {
     //  @Test
     // public void testLogoutButtonColorInSettings() {
     //     open("https://angular.realworld.io");
-    //     login("arysbugs@gmail.com", "Shazam888");
+    //     login("Ваш email", "Ваш пароль");
 
     //     // Перейти в настройки пользователя
     //     $(".nav-link[routerlink='/settings']").shouldBe(visible).click();
